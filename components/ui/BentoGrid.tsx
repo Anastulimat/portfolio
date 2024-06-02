@@ -1,12 +1,9 @@
 "use client"
-import { useState } from "react";
+import React, { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-
-// Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
 import { cn } from "@/utils/cn";
-
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import {GlobeDemo} from "./GridGlobe";
@@ -38,7 +35,6 @@ export const BentoGridItem = ({
                                   id,
                                   title,
                                   description,
-                                  //   remove unecessary things here
                                   img,
                                   imgClassName,
                                   titleClassName,
